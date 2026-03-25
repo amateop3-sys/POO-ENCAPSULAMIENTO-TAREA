@@ -32,7 +32,7 @@ public class Inicio {
 	
 	System.out.println("--------------------------");
 	
-	
+	// EJERCICIO 3	
 	Producto prod1 = new Producto("01", "Computadora acer", 9949.69);
 	Producto prod2 = new Producto("02","Lays", 4.00);
 	
@@ -41,6 +41,22 @@ public class Inicio {
 	
 	prod1.mostrarProducto();
 	prod2.mostrarProducto();
+	
+	
+	
+	System.out.println("--------------------------");
+	
+	
+	Cuenta c1= new Cuenta("MATEO", 50000);
+	c1.depositar(500);
+	c1.retirar(200);
+	c1.retirar(800);
+	
+	c1.mostrarCuenta();
+	
+	
+	
+	
 	
 }
 	
