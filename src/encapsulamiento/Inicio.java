@@ -46,13 +46,38 @@ public class Inicio {
 	
 	System.out.println("--------------------------");
 	
-	
+	// EJERCICIO 4
 	Cuenta c1= new Cuenta("MATEO", 50000);
 	c1.depositar(500);
 	c1.retirar(200);
 	c1.retirar(800);
 	
 	c1.mostrarCuenta();
+	
+	
+	System.out.println("--------------------------");
+	
+	// EJERCICIO 5
+	Libro l1= new Libro("Don Quijote de la Mancha", "Miguel de Cervantes", 1000);
+	Libro l2= new Libro("El Alquimista", "Paulo Coelho", 200);
+	Libro l3= new Libro("Crimen y castigo", "Fiódor Dostoievski", 700);
+	
+	l1.mostrarLibro();
+	l2.mostrarLibro();
+	l3.mostrarLibro();
+	
+	
+	System.out.println("--------------------------");
+	
+	
+	// EJERCICIO 6
+	Calculadora cal1= new Calculadora();
+	System.out.println("SUMA: "+cal1.sumar(5, 8));
+	System.out.println("RESTA: "+cal1.sumar(8, 5));
+	System.out.println("MULTIPLICACIÓN: "+cal1.multiplicar(78, 20));
+	System.out.println("DIVISIÓN: "+cal1.dividir(45, 0));
+	
+	
 	
 	
 	
